@@ -11,6 +11,17 @@ Allan Ochieng Otieno's professional portfolio website built with Flask, HTML, CS
 - Project Name: MY PORTFOLIO
 - Profile: Full Stack Developer with MIT certification, JKUAT Masters, Mpesa development experience, Safaricom Software Engineer
 
+## Recent Changes (Latest Update: July 29, 2025)
+
+✓ **Personalized Portfolio Created** - Complete portfolio for Allan Ochieng Otieno
+✓ **Education Updated** - Added MIT Full Stack Development Certificate (2023) and JKUAT Masters in IT (2021)
+✓ **Professional Experience** - Added Safaricom Software Engineer role and Mpesa development experience
+✓ **Contact Information** - Updated with email otienoallan1920@gmail.com
+✓ **Projects Section** - Updated with real fintech projects including Mpesa platform and Safaricom applications
+✓ **CV File** - Created comprehensive resume with all professional details
+✓ **JavaScript Issues** - Fixed navigation errors for smooth operation
+✓ **Project Name** - Saved as "MY PORTFOLIO"
+
 ## System Architecture
 
 ### Frontend Architecture
