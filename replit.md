@@ -1,12 +1,15 @@
-# Portfolio Website
+# MY PORTFOLIO
 
 ## Overview
 
-This is a Flask-based personal portfolio website featuring a responsive design with Bootstrap, smooth scrolling navigation, contact form functionality, and email integration. The application is designed as a single-page application (SPA) with multiple sections showcasing professional information.
+Allan Ochieng Otieno's professional portfolio website built with Flask, HTML, CSS, and JavaScript. Features a responsive design with Bootstrap dark theme, smooth scrolling navigation, contact form functionality, and email integration. Showcases his impressive background including MIT Full Stack Development certification, JKUAT Masters in IT, Mpesa development experience, and current role as Software Engineer at Safaricom.
 
 ## User Preferences
 
-Preferred communication style: Simple, everyday language.
+- Preferred communication style: Simple, everyday language
+- Portfolio Owner: Allan Ochieng Otieno
+- Project Name: MY PORTFOLIO
+- Profile: Full Stack Developer with MIT certification, JKUAT Masters, Mpesa development experience, Safaricom Software Engineer
 
 ## System Architecture
 

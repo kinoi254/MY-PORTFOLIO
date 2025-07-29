@@ -228,10 +228,5 @@ function debounce(func, wait) {
     };
 }
 
-// Apply debounce to scroll events for better performance
-const debouncedScroll = debounce(() => {
-    highlightActiveSection();
-    changeNavbarBackground();
-}, 10);
-
-window.addEventListener('scroll', debouncedScroll);
+// Apply debounce to scroll events for better performance (moved inside DOMContentLoaded)
+// This code is now handled within the DOMContentLoaded event listener above
