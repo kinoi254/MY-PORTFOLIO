@@ -1,4 +1,4 @@
-# MY PORTFOLIO
+# CodeMaven
 
 **Allan Ochieng Otieno - Full Stack Developer Portfolio**
 
@@ -6,7 +6,7 @@ A professional portfolio website showcasing my experience as a Full Stack Develo
 
 ## 🚀 Live Demo
 
-Visit the live portfolio: [Coming Soon - Add your GitHub Pages URL]
+Visit the live portfolio: https://github.com/kinoi254
 
 ## 👨‍💻 About Me
 
@@ -134,7 +134,7 @@ MY-PORTFOLIO/
 
 - **Email:** otienoallan1920@gmail.com
 - **LinkedIn:** [Allan Ochieng Otieno](https://linkedin.com/in/allan-ochieng-otieno)
-- **GitHub:** [allan-otieno](https://github.com/allan-otieno)
+- **GitHub:** [allan-otieno](https://github.com/kinoi254)
 
 ## 📄 License
 
