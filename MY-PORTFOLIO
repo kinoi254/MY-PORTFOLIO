@@ -1,0 +1,9 @@
+git status
+git add .
+git commit -m "Add MY-PORTFOLIO"
+git remote and origin "https://github.com/kinoi254/MY-PORTFOLIO.git"
+git push -u origin main
+git status
+git add .
+git commit -m "final push"
+git push -u origin main
