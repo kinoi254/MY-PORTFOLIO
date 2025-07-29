@@ -1,0 +1,53 @@
+ALLAN OCHIENG OTIENO
+Full Stack Developer
+
+Contact Information:
+Email: otienoallan1920@gmail.com
+Phone: +254 [Your Phone Number]
+
+PROFESSIONAL SUMMARY
+Passionate Full Stack Developer with expertise in both front-end and back-end technologies. 
+I have so much love for coding and new tech, always exploring the latest technologies and 
+frameworks to create innovative apps and web applications.
+
+TECHNICAL SKILLS
+Programming Languages: 
+- JavaScript
+- Python  
+- HTML/CSS
+- [Add your other languages]
+
+Frameworks & Technologies:
+- React
+- Node.js
+- Flask/Django
+- [Add your frameworks]
+
+Databases:
+- MongoDB
+- PostgreSQL
+- MySQL
+- [Add your databases]
+
+Tools & Technologies:
+- Git/GitHub
+- Docker
+- AWS
+- [Add your tools]
+
+EDUCATION
+[Your Degree] in [Your Field]
+[University Name] | [Graduation Year]
+[GPA if applicable]
+
+EXPERIENCE
+[Add your work experience here]
+
+PROJECTS
+[Add your key projects here]
+
+INTERESTS
+- New Technology Trends
+- Mobile App Development
+- Web Application Development
+- Open Source Contributing

@@ -72,7 +72,7 @@ Message:
 def download_cv():
     """Download CV file"""
     try:
-        return send_from_directory('static/files', 'cv.pdf', as_attachment=True)
+        return send_from_directory('static/files', 'allan_ochieng_otieno_cv.txt', as_attachment=True)
     except FileNotFoundError:
         flash('CV file not found. Please contact me directly.', 'error')
         return redirect(url_for('index'))
