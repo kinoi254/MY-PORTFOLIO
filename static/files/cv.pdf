@@ -1,120 +1,29 @@
-%PDF-1.4
-1 0 obj
-<<
-/Type /Catalog
-/Pages 2 0 R
->>
-endobj
+Professional CV
+Name: Allan Ochieng Otieno
+Email: contact@example.com
+Phone: +1 (555) 123-4567
 
-2 0 obj
-<<
-/Type /Pages
-/Kids [3 0 R]
-/Count 1
->>
-endobj
 
-3 0 obj
-<<
-/Type /Page
-/Parent 2 0 R
-/MediaBox [0 0 612 792]
-/Contents 4 0 R
-/Resources <<
-/Font <<
-/F1 5 0 R
->>
->>
->>
-endobj
+EDUCATION
+Bachelor of Science in Computer Science
+University Name | 2020 - 2024
+GPA: 3.8/4.0
 
-4 0 obj
-<<
-/Length 1200
->>
-stream
-BT
-/F1 24 Tf
-72 720 Td
-(Professional CV) Tj
-0 -30 Td
-/F1 12 Tf
-(Name: Your Name) Tj
-0 -20 Td
-(Email: contact@example.com) Tj
-0 -20 Td
-(Phone: +1 (555) 123-4567) Tj
-0 -40 Td
-/F1 16 Tf
-(EDUCATION) Tj
-0 -25 Td
-/F1 12 Tf
-(Bachelor of Science in Computer Science) Tj
-0 -15 Td
-(University Name | 2020 - 2024) Tj
-0 -15 Td
-(GPA: 3.8/4.0) Tj
-0 -30 Td
-/F1 16 Tf
-(TECHNICAL SKILLS) Tj
-0 -25 Td
-/F1 12 Tf
-(Programming Languages: Python, JavaScript, Java, TypeScript) Tj
-0 -15 Td
-(Frameworks: React, Flask, Django, Node.js) Tj
-0 -15 Td
-(Databases: PostgreSQL, MongoDB, MySQL) Tj
-0 -15 Td
-(Tools: Git, Docker, AWS, Linux) Tj
-0 -30 Td
-/F1 16 Tf
-(EXPERIENCE) Tj
-0 -25 Td
-/F1 12 Tf
-(Software Developer Intern | Tech Company) Tj
-0 -15 Td
-(Summer 2023) Tj
-0 -15 Td
-(• Developed full-stack web applications using React and Python) Tj
-0 -15 Td
-(• Collaborated with cross-functional teams on agile projects) Tj
-0 -15 Td
-(• Implemented responsive UI components and REST APIs) Tj
-0 -30 Td
-/F1 16 Tf
-(PROJECTS) Tj
-0 -25 Td
-/F1 12 Tf
-(E-commerce Platform - Full-stack application with payment processing) Tj
-0 -15 Td
-(Task Management App - Collaborative tool with real-time updates) Tj
-0 -15 Td
-(Weather Analytics Dashboard - Data visualization with interactive charts) Tj
-ET
-endstream
-endobj
+TECHNICAL SKILLS
+Programming Languages: Python, JavaScript, Java, TypeScript
+Frameworks: React, Flask, Django, Node.js
+Databases: PostgreSQL, MongoDB, MySQL
+Tools: Git, Docker, AWS, Linux
 
-5 0 obj
-<<
-/Type /Font
-/Subtype /Type1
-/BaseFont /Helvetica
->>
-endobj
+EXPERIENCE
+Software Developer Intern | Tech Company
+Summer 2023
+¢ Developed full-stack web applications using React and Python
+¢ Collaborated with cross-functional teams on agile projects
+¢ Implemented responsive UI components and REST APIs
 
-xref
-0 6
-0000000000 65535 f 
-0000000010 00000 n 
-0000000053 00000 n 
-0000000110 00000 n 
-0000000276 00000 n 
-0000001528 00000 n 
-trailer
-<<
-/Size 6
-/Root 1 0 R
->>
-startxref
-1625
-%%EOF
+PROJECTS
+E-commerce Platform - Full-stack application with payment processing
+Task Management App - Collaborative tool with real-time updates
+Weather Analytics Dashboard - Data visualization with interactive charts
+
