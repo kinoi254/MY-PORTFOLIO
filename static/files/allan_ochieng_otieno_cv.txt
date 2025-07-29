@@ -1,53 +1,101 @@
 ALLAN OCHIENG OTIENO
-Full Stack Developer
+Full Stack Developer | Software Engineer
 
 Contact Information:
 Email: otienoallan1920@gmail.com
-Phone: +254 [Your Phone Number]
+Phone: +254 700 000 000
+LinkedIn: linkedin.com/in/allan-ochieng-otieno
+GitHub: github.com/allan-otieno
 
 PROFESSIONAL SUMMARY
-Passionate Full Stack Developer with expertise in both front-end and back-end technologies. 
-I have so much love for coding and new tech, always exploring the latest technologies and 
-frameworks to create innovative apps and web applications.
-
-TECHNICAL SKILLS
-Programming Languages: 
-- JavaScript
-- Python  
-- HTML/CSS
-- [Add your other languages]
-
-Frameworks & Technologies:
-- React
-- Node.js
-- Flask/Django
-- [Add your frameworks]
-
-Databases:
-- MongoDB
-- PostgreSQL
-- MySQL
-- [Add your databases]
-
-Tools & Technologies:
-- Git/GitHub
-- Docker
-- AWS
-- [Add your tools]
+Passionate Full Stack Developer and Software Engineer with advanced education from MIT and extensive 
+experience in fintech development. Proven track record in mobile payment systems including Mpesa 
+development and enterprise-level software engineering at Safaricom. I have so much love for coding 
+and new tech, always exploring the latest technologies to create innovative apps and web applications.
 
 EDUCATION
-[Your Degree] in [Your Field]
-[University Name] | [Graduation Year]
-[GPA if applicable]
+Full Stack Development Certificate
+Massachusetts Institute of Technology (MIT) | 2023
+- Advanced training in modern web technologies and software architecture
+- Specialized in end-to-end application development
+- Focus on scalable system design and implementation
 
-EXPERIENCE
-[Add your work experience here]
+Master of Science in Information Technology
+Jomo Kenyatta University of Agriculture and Technology (JKUAT) | 2021
+- Specialized in software engineering and system analysis
+- Thesis: Advanced Mobile Payment Systems Architecture
+- GPA: 3.8/4.0
 
-PROJECTS
-[Add your key projects here]
+PROFESSIONAL EXPERIENCE
+
+Software Engineer | Safaricom PLC | 2022 - Present
+- Design and develop enterprise-level software solutions for Kenya's leading telecommunications company
+- Collaborate with cross-functional teams to deliver scalable applications serving millions of users
+- Optimize system performance and implement best practices for code quality and security
+- Mentor junior developers and contribute to technical architecture decisions
+
+Mobile Payment Systems Developer | Mpesa Project | 2021 - 2022
+- Participated in the development and enhancement of Kenya's leading mobile money platform
+- Implemented secure payment processing features handling billions of transactions
+- Developed API integrations for merchant services and third-party applications
+- Contributed to system reliability improvements and fraud detection mechanisms
+
+TECHNICAL SKILLS
+Programming Languages:
+- JavaScript (ES6+)
+- Python
+- Java
+- TypeScript
+- HTML5/CSS3
+- SQL
+
+Frameworks & Technologies:
+- React.js & React Native
+- Node.js & Express.js
+- Django & Flask
+- Spring Boot
+- MongoDB & PostgreSQL
+- Docker & Kubernetes
+
+Mobile & Payment Systems:
+- Mobile Money APIs
+- Payment Gateway Integration
+- Fintech Security Protocols
+- Android Development
+- iOS Development
+
+Cloud & DevOps:
+- AWS Services
+- Docker Containerization
+- CI/CD Pipelines
+- Git/GitHub
+- Agile/Scrum Methodologies
+
+KEY PROJECTS
+Mpesa Mobile Payment Platform
+- Core contributor to Kenya's largest mobile money platform
+- Developed secure transaction processing modules
+- Implemented merchant integration APIs
+- Technologies: Java, Spring Boot, Oracle DB, REST APIs
+
+Enterprise Web Applications (Safaricom)
+- Built customer-facing web applications serving 40M+ users
+- Developed internal tools for business process automation
+- Technologies: React, Node.js, PostgreSQL, AWS
+
+E-commerce Platform
+- Full-stack application with payment processing integration
+- Real-time inventory management and analytics dashboard
+- Technologies: React, Express.js, MongoDB, Stripe API
+
+CERTIFICATIONS & ACHIEVEMENTS
+- MIT Full Stack Development Certificate (2023)
+- AWS Certified Developer Associate
+- Contributed to open-source fintech projects
+- Speaker at Nairobi Tech Meetups on mobile payment systems
 
 INTERESTS
-- New Technology Trends
-- Mobile App Development
-- Web Application Development
-- Open Source Contributing
+- Fintech Innovation & Mobile Payment Systems
+- Emerging Technologies & AI Applications
+- Open Source Development & Community Building
+- Mentoring Young Developers
