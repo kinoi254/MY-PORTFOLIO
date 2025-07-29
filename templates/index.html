@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional portfolio showcasing skills, projects, and experience in software development">
+    <meta name="keywords" content="developer, portfolio, programming, web development, software engineer">
+    <meta name="author" content="Your Name">
+    
+    <title>Professional Portfolio - Software Developer</title>
+    
+    <!-- Bootstrap CSS with Replit Dark Theme -->
+    <link href="https://cdn.replit.com/agent/bootstrap-agent-dark-theme.min.css" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#home">Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#interests">Interests</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-lg-6">
+                    <div class="hero-content">
+                        <h1 class="display-4 fw-bold mb-3 fade-in">Professional Software Developer</h1>
+                        <p class="lead mb-4 fade-in">Passionate about creating innovative solutions and building exceptional digital experiences</p>
+                        <div class="fade-in">
+                            <a href="#about" class="btn btn-outline-light btn-lg me-3">Learn More</a>
+                            <a href="#contact" class="btn btn-secondary btn-lg">Get In Touch</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="hero-image text-center fade-in">
+                        <img src="https://pixabay.com/get/g911018a17f1f066c7e340005df7d183c570f825951388d9704e5927c7fc7c80f42bc7dcfe04e45e7d138c81e660a8dc2f040b2bcc760bfb0c6784a2c2eaa5f1e_1280.jpg" 
+                             alt="Professional Developer Workspace" 
+                             class="img-fluid rounded shadow">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h2 class="display-5 fw-bold mb-4">About Me</h2>
+                    <p class="lead mb-4">
+                        I'm a passionate software developer with a strong foundation in full-stack development and a love for solving complex problems through code. 
+                        My journey in technology began with curiosity and has evolved into a career dedicated to creating meaningful digital solutions.
+                    </p>
+                    <p class="mb-4">
+                        With experience in modern web technologies and software development practices, I focus on writing clean, efficient code and building 
+                        user-centric applications. I believe in continuous learning and staying updated with the latest industry trends and best practices.
+                    </p>
+                    <p>
+                        When I'm not coding, I enjoy exploring new technologies, contributing to open-source projects, and sharing knowledge with the developer community.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-5 bg-dark">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-5 fw-bold mb-4">Programming Skills</h2>
+                <p class="lead">Technologies and languages I work with</p>
+            </div>
+            <div class="row">
+                <!-- Programming Languages -->
+                <div class="col-md-6 mb-4">
+                    <div class="skill-category">
+                        <h4 class="mb-3"><i class="fas fa-code me-2"></i>Programming Languages</h4>
+                        <div class="skill-item mb-3">
+                            <div class="d-flex justify-content-between mb-1">
+                                <span>Python</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar bg-info" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item mb-3">
+                            <div class="d-flex justify-content-between mb-1">
+                                <span>JavaScript</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar bg-success" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item mb-3">
+                            <div class="d-flex justify-content-between mb-1">
+                                <span>Java</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar bg-warning" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item mb-3">
+                            <div class="d-flex justify-content-between mb-1">
+                                <span>TypeScript</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar bg-primary" style="width: 75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Frameworks & Tools -->
+                <div class="col-md-6 mb-4">
+                    <div class="skill-category">
+                        <h4 class="mb-3"><i class="fas fa-tools me-2"></i>Frameworks & Tools</h4>
+                        <div class="skill-item mb-3">
+                            <div class="d-flex justify-content-between mb-1">
+                                <span>React</span>
+                                <span>88%</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar bg-info" style="width: 88%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item mb-3">
+                            <div class="d-flex justify-content-between mb-1">
+                                <span>Flask/Django</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar bg-success" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item mb-3">
+                            <div class="d-flex justify-content-between mb-1">
+                                <span>Node.js</span>
+                                <span>82%</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar bg-warning" style="width: 82%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item mb-3">
+                            <div class="d-flex justify-content-between mb-1">
+                                <span>SQL/MongoDB</span>
+                                <span>78%</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar bg-primary" style="width: 78%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-5 fw-bold mb-4">Education</h2>
+                <p class="lead">Academic background and qualifications</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="card shadow-sm mb-4">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-start mb-3">
+                                <div>
+                                    <h4 class="card-title">Bachelor of Science in Computer Science</h4>
+                                    <h6 class="card-subtitle text-muted">University Name</h6>
+                                </div>
+                                <span class="badge bg-secondary">2020 - 2024</span>
+                            </div>
+                            <p class="card-text">
+                                Comprehensive study of computer science fundamentals including algorithms, data structures, 
+                                software engineering, and system design. Participated in various coding competitions and 
+                                collaborative projects.
+                            </p>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-check text-success me-2"></i>Relevant Coursework: Data Structures, Algorithms, Web Development, Database Systems</li>
+                                <li><i class="fas fa-check text-success me-2"></i>GPA: 3.8/4.0</li>
+                                <li><i class="fas fa-check text-success me-2"></i>Dean's List: 2022, 2023</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="text-center">
+                        <a href="{{ url_for('download_cv') }}" class="btn btn-outline-primary btn-lg">
+                            <i class="fas fa-download me-2"></i>Download CV
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interests Section -->
+    <section id="interests" class="py-5 bg-dark">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-5 fw-bold mb-4">Tech Interests</h2>
+                <p class="lead">What excites me about technology</p>
+            </div>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 border-0 bg-transparent text-center">
+                        <div class="card-body">
+                            <i class="fas fa-robot fa-3x text-info mb-3"></i>
+                            <h5 class="card-title">Artificial Intelligence</h5>
+                            <p class="card-text">
+                                Fascinated by machine learning algorithms and their applications in solving real-world problems. 
+                                Currently exploring deep learning frameworks and neural networks.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 border-0 bg-transparent text-center">
+                        <div class="card-body">
+                            <i class="fas fa-cloud fa-3x text-success mb-3"></i>
+                            <h5 class="card-title">Cloud Computing</h5>
+                            <p class="card-text">
+                                Passionate about scalable cloud architectures and DevOps practices. 
+                                Experience with AWS, containerization, and infrastructure as code.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 border-0 bg-transparent text-center">
+                        <div class="card-body">
+                            <i class="fas fa-mobile-alt fa-3x text-warning mb-3"></i>
+                            <h5 class="card-title">Mobile Development</h5>
+                            <p class="card-text">
+                                Interested in creating seamless mobile experiences using modern frameworks. 
+                                Exploring React Native and Flutter for cross-platform development.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-5 fw-bold mb-4">Projects</h2>
+                <p class="lead">Recent work and contributions</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card h-100 shadow-sm project-card">
+                        <img src="https://pixabay.com/get/gc28866a24eade23728490162da2825b22f90ba6bedc60fdee1fbde88166f371865cec0aba7559745e37372bf5955e558fc09de84d2d5aca5ca65c73623a29fb1_1280.jpg" 
+                             class="card-img-top" alt="E-commerce Platform">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">E-commerce Platform</h5>
+                            <p class="card-text flex-grow-1">
+                                Full-stack web application built with React and Node.js featuring user authentication, 
+                                payment processing, and inventory management.
+                            </p>
+                            <div class="mt-auto">
+                                <div class="mb-2">
+                                    <span class="badge bg-primary me-1">React</span>
+                                    <span class="badge bg-success me-1">Node.js</span>
+                                    <span class="badge bg-info me-1">MongoDB</span>
+                                </div>
+                                <a href="#" class="btn btn-outline-primary me-2">
+                                    <i class="fab fa-github me-1"></i>Code
+                                </a>
+                                <a href="#" class="btn btn-secondary">
+                                    <i class="fas fa-external-link-alt me-1"></i>Live Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card h-100 shadow-sm project-card">
+                        <img src="https://pixabay.com/get/gea4b8f018ffd988d2505fb82789dfb21d49d0298283102dd922a2eba871d755e9115cb802debf8da97cf13d3e1f7673d9415a603b9f092464998f9429850d1ed_1280.jpg" 
+                             class="card-img-top" alt="Task Management App">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Task Management App</h5>
+                            <p class="card-text flex-grow-1">
+                                Collaborative task management application with real-time updates, 
+                                drag-and-drop functionality, and team collaboration features.
+                            </p>
+                            <div class="mt-auto">
+                                <div class="mb-2">
+                                    <span class="badge bg-primary me-1">Vue.js</span>
+                                    <span class="badge bg-warning me-1">Python</span>
+                                    <span class="badge bg-info me-1">PostgreSQL</span>
+                                </div>
+                                <a href="#" class="btn btn-outline-primary me-2">
+                                    <i class="fab fa-github me-1"></i>Code
+                                </a>
+                                <a href="#" class="btn btn-secondary">
+                                    <i class="fas fa-external-link-alt me-1"></i>Live Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card h-100 shadow-sm project-card">
+                        <img src="https://pixabay.com/get/g98f2efc9218ee4c73af1cf4ced1a95c913d17f67f75f75b721af3dec933a2a3cc68aec96659d7e1cb210697786ab4b0069649740399845ed21b7494bc8700a7a_1280.jpg" 
+                             class="card-img-top" alt="Weather Analytics Dashboard">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Weather Analytics Dashboard</h5>
+                            <p class="card-text flex-grow-1">
+                                Data visualization dashboard that aggregates weather data from multiple APIs 
+                                and provides interactive charts and forecasting insights.
+                            </p>
+                            <div class="mt-auto">
+                                <div class="mb-2">
+                                    <span class="badge bg-primary me-1">React</span>
+                                    <span class="badge bg-success me-1">D3.js</span>
+                                    <span class="badge bg-warning me-1">Flask</span>
+                                </div>
+                                <a href="#" class="btn btn-outline-primary me-2">
+                                    <i class="fab fa-github me-1"></i>Code
+                                </a>
+                                <a href="#" class="btn btn-secondary">
+                                    <i class="fas fa-external-link-alt me-1"></i>Live Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-dark">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-5 fw-bold mb-4">Get In Touch</h2>
+                <p class="lead">Let's collaborate on your next project</p>
+            </div>
+            
+            <!-- Flash Messages -->
+            {% with messages = get_flashed_messages(with_categories=true) %}
+                {% if messages %}
+                    <div class="row">
+                        <div class="col-lg-8 mx-auto">
+                            {% for category, message in messages %}
+                                <div class="alert alert-{{ 'danger' if category == 'error' else 'success' if category == 'success' else 'info' }} alert-dismissible fade show" role="alert">
+                                    {{ message }}
+                                    <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                                </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                {% endif %}
+            {% endwith %}
+            
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <form id="contactForm" action="{{ url_for('contact') }}" method="POST">
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label for="name" class="form-label">Name *</label>
+                                <input type="text" class="form-control" id="name" name="name" required>
+                                <div class="invalid-feedback">
+                                    Please provide your name.
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label for="email" class="form-label">Email *</label>
+                                <input type="email" class="form-control" id="email" name="email" required>
+                                <div class="invalid-feedback">
+                                    Please provide a valid email address.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="subject" class="form-label">Subject *</label>
+                            <input type="text" class="form-control" id="subject" name="subject" required>
+                            <div class="invalid-feedback">
+                                Please provide a subject.
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message *</label>
+                            <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                            <div class="invalid-feedback">
+                                Please provide a message.
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-primary btn-lg">
+                                <i class="fas fa-paper-plane me-2"></i>Send Message
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4 text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="social-links mb-3">
+                        <a href="#" class="text-decoration-none me-3">
+                            <i class="fab fa-github fa-2x"></i>
+                        </a>
+                        <a href="#" class="text-decoration-none me-3">
+                            <i class="fab fa-linkedin fa-2x"></i>
+                        </a>
+                        <a href="#" class="text-decoration-none me-3">
+                            <i class="fab fa-twitter fa-2x"></i>
+                        </a>
+                        <a href="mailto:contact@example.com" class="text-decoration-none">
+                            <i class="fas fa-envelope fa-2x"></i>
+                        </a>
+                    </div>
+                    <p class="text-muted mb-0">
+                        &copy; 2025 Professional Portfolio. Built with Flask and Bootstrap.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
